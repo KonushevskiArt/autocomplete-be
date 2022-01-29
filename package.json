@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "engines": {
     "node": "16.13.0"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15"
   }
 }
